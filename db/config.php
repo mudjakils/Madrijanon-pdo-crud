@@ -2,9 +2,9 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'table product');
+define('DB_USERNAME', 'u593341949_dev_madrijanon');
+define('DB_PASSWORD', '20191554Madrijanon');
+define('DB_NAME', 'u593341949_db_madrijanon');
  
 /* Attempt to connect to MySQL database */
 try{
