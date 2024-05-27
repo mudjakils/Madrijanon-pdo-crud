@@ -3,7 +3,7 @@
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_NAME', 'it28-madrijanon');
+define('DB_NAME', 'it28-ecommerce.sql');
 define('DB_PASSWORD', '');
 
  
