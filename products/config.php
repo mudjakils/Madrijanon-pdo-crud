@@ -1,15 +1,23 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'it28-ecommerce.sql';
+$dbname = 'u593341949_db_madrijanon';
 $username = 'root';
 $password = '';
-/*
+
+/* Database credentials. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'it28-ecommerce.sql');
-*/
+define('DB_NAME', 'u593341949_db_madrijanon');
+
+// define('DB_SERVER', 'localhost');
+// define('DB_NAME', 'u593341949_db_madrijanon');
+// define('DB_USERNAME', 'u593341949_dev_madrijanon');
+// define('DB_PASSWORD', '20191554Madrijanon');
+
 try {
  $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
