@@ -78,9 +78,14 @@
         <?php
         // Database connection
         $servername = "localhost";
-        $username = "root";
-        $password = "";
+        $username = "u593341949_dev_madrijanon";
+        $password = "20191554Madrijanon";
         $dbname = "u593341949_db_madrijanon";
+        
+        // $servername = "localhost";
+        // $username = "root";
+        // $password = "";
+        // $dbname = "u593341949_db_madrijanon";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
